@@ -1,0 +1,14 @@
+{
+  "id": "snake",
+  "name": "贪吃蛇",
+  "description": "经典贪吃蛇游戏 - 方向键操控，吃食物增长，挑战高分",
+  "version": "1.0.0",
+  "author": "Koei1102",
+  "entry": "index.html",
+  "icon": "icon.png",
+  "width": 500,
+  "height": 660,
+  "minWidth": 500,
+  "minHeight": 600,
+  "resizable": true
+}
