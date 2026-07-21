@@ -1,4 +1,34 @@
-# GamePlatform 技术文档
+# GamePlatform
+
+<p align="center">
+  <img src="https://img.shields.io/github/license/1479650473/game-platform" alt="License">
+  <img src="https://img.shields.io/github/v/release/1479650473/game-platform" alt="Release">
+  <img src="https://img.shields.io/github/stars/1479650473/game-platform" alt="Stars">
+</p>
+
+桌面游戏平台启动器，内置俄罗斯方块、扫雷、数独。支持毛玻璃风格卡片、独立窗口游玩、双层自动更新。
+
+## 下载
+
+前往 [Releases](https://github.com/1479650473/game-platform/releases) 页面下载最新版 `GamePlatform Setup x.x.x.exe`，双击安装即可。
+
+> 首次安装 Windows 可能弹出 SmartScreen 警告，点击「更多信息」→「仍要运行」。
+
+## 截图
+
+> 截图待补充。欢迎 PR 贡献界面截图。
+
+## 内置游戏
+
+| 游戏 | 说明 |
+|------|------|
+| 俄罗斯方块 | 经典方块消除 |
+| 扫雷 | 经典扫雷逻辑游戏 |
+| 数独 | 4 级难度，唯一解验证，笔记模式，计时器 |
+
+---
+
+## 技术文档（开发者阅读）
 
 ## 项目概述
 
@@ -392,3 +422,33 @@ npm run release
 ### 打包超时/EBUSY
 
 `electron-builder --win` 会在最后执行签名步骤，可能超时。`package:dir` 跳过安装包打包，输出 `release/win-unpacked/` 用于本地测试。正式发布用 `npm run release`。
+
+---
+
+## 贡献
+
+欢迎提交 Issue 和 PR！请先阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+### 贡献者
+
+感谢所有为这个项目付出的人：
+
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/1479650473">
+        <img src="https://github.com/1479650473.png" width="60px" alt=""/>
+        <br /><sub><b>csy & gr</b></sub>
+      </a>
+      <br /><sub>💻 🎨 📦</sub>
+    </td>
+  </tr>
+</table>
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+> 💻 代码 &nbsp; 🎨 设计 &nbsp; 📦 打包 &nbsp; 📖 文档 &nbsp; 🐛 报告 Bug
+
+## 许可证
+
+MIT © csy & gr

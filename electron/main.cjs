@@ -253,7 +253,7 @@ function createMenu() {
               type: 'info',
               title: '关于游戏平台',
               message: '游戏平台 v1.0.0',
-              detail: '一个简单的游戏启动器。\n\n双击游戏卡片启动游戏。\n右键游戏卡片删除游戏。\n点击 + 号添加新游戏。\n\nbuilt by csy & gr',
+              detail: '一个简单的游戏启动器。\n\n双击游戏卡片启动游戏。\n右键游戏卡片删除游戏。\n点击 + 号添加新游戏。\n\n项目地址: https://github.com/1479650473/game-platform\n\nbuilt by csy & gr',
             });
           },
         },
