@@ -18,6 +18,12 @@
       "latest": "1.0.0",
       "url": "https://github.com/1479650473/game-platform/releases/download/v1.0.0/minesweeper.zip",
       "changelog": "初始版本"
+    },
+    "snake": {
+      "name": "贪吃蛇",
+      "latest": "1.0.0",
+      "url": "https://github.com/1479650473/game-platform/releases/download/v1.0.0/snake.zip",
+      "changelog": "初始版本"
     }
   }
 }
